@@ -65,7 +65,7 @@ header {
     box-sizing: border-box;
 }
 .isi-1 .img-fluid {
-    border-radius: 100%;
+    border-radius: 50px;
 }
 .profil {
     padding: 0 15px 0px 15px;
@@ -207,6 +207,9 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    .isi-1 .img-fluid {
+        border-radius: 100%;
     }
     .sidebar-2 img {
         width: 340px;
