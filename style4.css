@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    /* padding-bottom: 1000px; */
+}
+/* Navbar */
+nav {
+    color: white;
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h3 {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+/* Header */
+header {
+    background-image: url(gambar/lap.\ basket\ -\ smpn\ 1\ situbondo\ 1.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -75px;
+}
+.judul h1 {
+    font-size: 58px;
+    color: white;
+    margin-bottom: 5px;
+}
+.judul::after {
+    content: '';
+    display: block;
+    border-bottom: 8px solid #e06666;
+    width: 20%;
+    margin: auto;
+}
+.judul i {
+    font-style: normal;
+    color: #e06666;
+}
+
+/* About Me */
+.title-1 h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #e06666;
+    font-weight: normal;
+    padding: 40px 0 40px 0;
+    font-size: 40px;
+}
+.isi-1 {
+    display: flex;
+    justify-content: center;
+    background-color: #fcf0f0;
+    padding: 20px 40px 20px 40px;
+    box-sizing: border-box;
+}
+.profil {
+    padding: 0 15px 0px 15px;
+    font-size: 30px;
+}
+.profil i {
+    font-style: normal;
+    font-weight: lighter;
+    color: #e06666;
+}
+.nama h2 {
+    font-weight: bolder;
+    color: #636060;
+    font-size: 45px;
+}
+.foto img {
+    padding: 0 15px 0px 15px;
+    text-align: center;
+}
+.nama {padding: 14px 8px;}
+
+/* School */
+.title-2 h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #e06666;
+    font-weight: normal;
+    padding: 40px 0 40px 0;
+    font-size: 40px;
+}
+.isi-2 {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: center;
+}
+.sidebar-1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 29px;
+    padding: 0 15px;
+}
+.sidebar-2 {
+    padding: 0 15px;
+    display: flex;
+}
+.sidebar-1 img {
+    width: 340px;
+    height: 256px;
+}
+.sidebar-2 img{
+    width: 720px;
+    height: 540px;
+}
+
+/* Skill */
+.title-3 h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #e06666;
+    font-weight: normal;
+    padding: 40px 0 40px 0;
+    font-size: 40px;
+}
+.isi-3 {
+    display: flex;
+    background-color: #fcf0f0;
+    justify-content: space-evenly;
+    padding: 20px 40px;
+}
+.isi-3 img {
+    width: 155px;
+    height: 155px;
+}
+.text-center {
+    padding: 14px 8px;
+    margin: 0;
+}
+
+/* Sosial Media */
+.title-4 h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #e06666;
+    font-weight: normal;
+    padding: 40px 0 40px 0;
+    font-size: 40px;
+}
+.isi-4 {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+.isi-4 img {
+    width: 155px;
+    height: 155px;
+}
+
+/* Lokasi */
+.title-5 h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #e06666;
+    font-weight: normal;
+    padding: 40px 0 40px 0;
+    font-size: 40px;
+}
+.isi-5 {
+    background-color: #fcf0f0;
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+}
+
+/* Footer */
+footer {
+    background-color: #e06666;
+    padding: 25px 40px;
+    font-size: 20px;
+    color: black;
+}
+
+@media only screen and (max-width: 576px) {
+    nav {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .judul h1 {
+        font-size: 54px;
+        text-align: center;
+    }
+    .logo h3 {font-size: 22px;}
+    .isi-1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .isi-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sidebar-2 img {
+        width: 340px;
+        height: 256px;
+    }
+    .sidebar-1 .img-fluid, .sidebar-2 .img-fluid {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .sidebar-2 {
+        display: flex;
+        margin-top: 30px;
+    }
+    .isi-3 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .isi-4 {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .image {margin: auto;}
+}
