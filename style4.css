@@ -24,7 +24,9 @@ nav {
 header {
     background-image: url(gambar/lap.\ basket\ -\ smpn\ 1\ situbondo\ 1.JPG);
     background-size: cover;
-    background-position: center;
+    background-attachment: fixed;
+    background-position: 0 -200px;
+    background-repeat: no-repeat;
     height: 550px;
     display: flex;
     justify-content: center;
@@ -192,6 +194,10 @@ footer {
         display: flex;
         justify-content: left;
         align-items: center;
+    }
+    header {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
     }
     .judul h1 {
         font-size: 54px;
